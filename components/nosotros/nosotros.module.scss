@@ -1,0 +1,35 @@
+.Nosotros{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: end;
+    gap: 150px;
+
+    .Info{
+        width: 40%;
+
+        span{
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 0.8rem;
+        }
+        h2{
+            font-size: 3rem;
+            font-family: 'Telegraf_bold';
+            margin-bottom: 3rem;
+        }
+
+        p{
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            line-height: 1.5rem;
+        }
+    }
+
+    img{
+        width: 40%;
+        height: auto;
+        background: #fff;
+    }
+}

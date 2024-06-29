@@ -1,0 +1,45 @@
+.Menu{
+    position: fixed;
+    top: 80px;
+    right: 80px;
+    z-index: 100;
+
+    button{
+        background: transparent;
+        color: #EBEBEE;
+        transition: all 0.3s ease-out;
+    }
+    svg{
+        font-size: 2.5rem;
+    }
+
+    .Open{
+        color: #12172B;
+    }
+}
+
+.MenuBody{
+    width: 20%;
+    height: 100vh;
+    background: #DFDFE1;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding: 40px;
+    color: #12172B;
+    z-index: 99;
+    
+    span{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    nav{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        // text-align: right;
+        font-size: 1.5rem;
+    }
+}
