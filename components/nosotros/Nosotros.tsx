@@ -16,10 +16,11 @@ const Nosotros = () => {
             </div>
 
             <Image 
-                src={'/'}
+                src={'/images/Nosotrosbanner.webp'}
                 alt='Estructuras industriales nosotros'
                 width={1000}
                 height={800}
+                priority={false}
             />
         </div>
     );

@@ -1,0 +1,33 @@
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+    background: #0000007a;
+
+    @media (width <= 900px) {
+        height: 60vh;
+    }
+
+    h2{
+        width: 50%;
+        text-align: center;
+        font-size: 3rem;
+
+        @media (width <= 1300px) {
+            width: 60%;
+            font-size: 2.3rem;
+        }
+
+        @media (width <= 900px) {
+            width: 80%;
+            font-size: 1.5rem;
+        }
+
+        @media (width <= 400px) {
+            width: 90%;
+            font-size: 1.3rem;
+        }
+    }
+}

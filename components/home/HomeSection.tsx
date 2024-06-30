@@ -8,10 +8,10 @@ const HomeSection = () => {
         <section>
             <div className={style.Home}>
                 <Image 
-                    src={'/'}
+                    src={'/images/HomeBanner.webp'}
                     alt='Estructuras industriales imagen'
                     width={1000}
-                    height={900}
+                    height={1000}
                 />
 
                 <div className={style.Info}>

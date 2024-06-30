@@ -5,8 +5,22 @@
     justify-content: end;
     gap: 150px;
 
+    @media (width <= 1300px) {
+        gap: 100px;
+    }
+
+    @media (width <= 900px) {
+        flex-direction: column;
+        gap: 0;
+        padding: 40px 20px;
+    }
+
     .Info{
         width: 40%;
+
+        @media (width <= 900px) {
+            width: 100%;
+        }
 
         span{
             text-transform: uppercase;
@@ -18,18 +32,37 @@
             font-size: 3rem;
             font-family: 'Telegraf_bold';
             margin-bottom: 3rem;
+
+            @media (width <= 1300px) {
+                margin-bottom: 2.5rem;
+            }
+
+            @media (width <= 900px) {
+                margin-bottom: 2rem;
+            }
         }
 
         p{
             font-size: 1.1rem;
             letter-spacing: 1px;
             line-height: 1.5rem;
+
+            @media (width <= 1300px) {
+                font-size: 1rem;
+            }
         }
     }
 
     img{
-        width: 40%;
+        width: 35%;
         height: auto;
-        background: #fff;
+
+        @media (width <= 1300px) {
+            width: 40%;
+        }
+
+        @media (width <= 900px) {
+            width: 100%;
+        }
     }
 }
