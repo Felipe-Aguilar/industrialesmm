@@ -5,44 +5,42 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const HomeSection = () => {
     return ( 
-        <section>
-            <div className={style.Home}>
+        <div className={style.Home} id='#inicio'>
+            <Image 
+                src={'/images/HomeBanner.webp'}
+                alt='Estructuras industriales imagen'
+                width={1000}
+                height={1000}
+            />
+
+            <div className={style.Info}>
                 <Image 
-                    src={'/images/HomeBanner.webp'}
-                    alt='Estructuras industriales imagen'
-                    width={1000}
-                    height={1000}
+                    src={'/images/Logotipo.svg'}
+                    alt='Logotipo estructuras industriales'
+                    width={400}
+                    height={100}
+                    className={style.Logotipo}
                 />
 
-                <div className={style.Info}>
-                    <Image 
-                        src={'/images/Logotipo.svg'}
-                        alt='Logotipo estructuras industriales'
-                        width={400}
-                        height={100}
-                        className={style.Logotipo}
-                    />
+                <h1>Construyendo <br/> soluciones sólidas <br/> para su industria.</h1>
 
-                    <h1>Construyendo <br/> soluciones sólidas <br/> para su industria.</h1>
+                <button>
+                    Contáctanos
+                </button>
 
-                    <button>
-                        Contáctanos
-                    </button>
-
-                    <div className={style.SocialIcons}>
-                        <a href="" target='_blank'>
-                            <FaInstagram />
-                        </a>
-                        <a href="" target='_blank'>
-                            <FaFacebookF />
-                        </a>
-                        <a href="" target='_blank'>
-                            <FaXTwitter />
-                        </a>
-                    </div>
+                <div className={style.SocialIcons}>
+                    <a href="" target='_blank'>
+                        <FaInstagram />
+                    </a>
+                    <a href="" target='_blank'>
+                        <FaFacebookF />
+                    </a>
+                    <a href="" target='_blank'>
+                        <FaXTwitter />
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 

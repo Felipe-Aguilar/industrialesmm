@@ -4,6 +4,7 @@ import { BsList, BsXLg } from "react-icons/bs";
 import { Fragment, useEffect, useState } from "react";
 import style from './menu.module.scss';
 import { AnimatePresence, motion } from "framer-motion";
+import { Link } from 'react-scroll';
 
 const animation = {
     initial: {opacity: 0, right: -500},
@@ -49,9 +50,17 @@ const Menu = () => {
 
                         <nav>
                             {navigationMenu.map((link)=>(
-                                <motion.a whileHover={{scale: 1.1}} href={link.path} key={link.name} onClick={()=>setOpen(false)}>
+                                <Link 
+                                    key={link.name} 
+                                    to={link.path}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={900}
+                                    onClick={()=>setOpen(false)}
+                                >
                                     {link.name}
-                                </motion.a>
+                                </Link>
                             ))}
                         </nav>
                     </motion.div>

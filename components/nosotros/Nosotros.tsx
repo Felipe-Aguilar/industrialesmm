@@ -3,7 +3,7 @@ import style from './nosotros.module.scss';
 
 const Nosotros = () => {
     return ( 
-        <div className={style.Nosotros}>
+        <div className={style.Nosotros} id='#nosotros'>
             <div className={style.Info}>
                 <span>Conoce un poco más de</span>
                 <h2>Nosotros</h2>

@@ -4,7 +4,7 @@ import { TbTargetArrow } from 'react-icons/tb';
 
 const Rige = () => {
     return ( 
-        <div className={style.Rige}>
+        <div className={style.Rige} id='#quien'>
             <h2>¿Qué nos rige?</h2>
 
             <div className={style.Info}>
