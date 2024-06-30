@@ -16,7 +16,7 @@ const Nosotros = () => {
             </div>
 
             <Image 
-                src={'/images/Nosotrosbanner.webp'}
+                src={'/images/nosotros.webp'}
                 alt='Estructuras industriales nosotros'
                 width={1000}
                 height={800}
