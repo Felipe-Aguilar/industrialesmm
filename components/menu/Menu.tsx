@@ -18,7 +18,7 @@ const navigationMenu = [
     {name: 'Nosotros', path: '#nosotros'},
     {name: '¿Quién nos rige?', path: '#quien'},
     {name: 'Servicios', path: '#servicios'},
-    {name: 'Galería', path: '#galería'},
+    {name: 'Galería', path: '#galeria'},
     {name: 'Nuestros clientes', path: '#clientes'},
     {name: 'Nuestro equipo', path: '#equipo'},
     {name: 'Contacto', path: '#contacto'},

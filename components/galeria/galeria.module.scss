@@ -1,0 +1,47 @@
+.Galeria{
+    padding: 80px;
+
+    @media (width <= 900px) {
+        padding: 40px;
+    }
+
+    h2{
+        font-family: 'Telegraf_bold';
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 4rem;
+
+        @media (width <= 1300px) {
+            margin-bottom: 3rem;
+        }
+
+        @media (width <= 900px) {
+            font-size: 2.5rem;
+        }
+    }
+    
+    .Slide{
+        width: 80%;
+        display: block;
+        margin: auto;
+
+        @media (width <= 1300px) {
+            width: 90%;
+        }
+
+        @media (width <= 900px) {
+            width: 100%;
+        }
+
+        img{
+            width: 90%!important;
+            height: auto;
+            display: block!important;
+            margin: auto!important;
+        }
+    }
+
+    .Slide2{
+        margin-top: 2rem;
+    }
+}
