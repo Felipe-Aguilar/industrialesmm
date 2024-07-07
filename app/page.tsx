@@ -1,5 +1,6 @@
 import Banner from "@/components/banner/Banner";
 import Contacto from "@/components/contacto/Contacto";
+import Footer from "@/components/footer/Footer";
 import Galeria from "@/components/galeria/Galeria";
 import HomeSection from "@/components/home/HomeSection";
 import Nosotros from "@/components/nosotros/Nosotros";
@@ -16,6 +17,7 @@ export default function Home() {
       <Servicios />
       <Galeria />
       <Contacto />
+      <Footer />
     </div>
   );
 }

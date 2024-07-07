@@ -2,6 +2,10 @@
     background-color: #4958DB;
     padding: 80px;
 
+    @media (width <= 900px) {
+        padding: 40px 20px;
+    }
+
     .Container{
         padding: 80px;
         width: 70%;
@@ -15,8 +19,17 @@
             width: 100%;
         }
 
+        @media (width <= 900px) {
+            flex-direction: column;
+            padding: 40px;
+        }
+
         div{
             width: 50%;
+
+            @media (width <= 900px) {
+                width: 100%;
+            }
 
             h2{
                 font-family: 'Telegraf_bold';
@@ -29,6 +42,7 @@
         
                 @media (width <= 900px) {
                     font-size: 2.5rem;
+                    margin-bottom: 1.5rem;
                 }
             }
 
@@ -38,6 +52,12 @@
                 width: 100%;
                 line-height: 30px;
                 margin-bottom: 5rem;
+
+                @media (width <= 900px) {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    margin-bottom: 1.5rem;
+                }
             }
 
             .Social{
@@ -48,12 +68,20 @@
 
             form{
 
+                @media (width <= 900px) {
+                    margin-top: 4rem;
+                }
+
                 input, label, textarea{
                     width: 100%;
                     display: block;
                 }
                 label{
                     font-size: 1.2rem;
+
+                    @media (width <= 900px) {
+                        font-size: 1.1rem;
+                    }
                 }
                 input{
                     outline: none;
@@ -61,6 +89,10 @@
                     margin-bottom: 1.5rem;
                     color: #EBEBEE;
                     font-size: 1.2rem;
+
+                    @media (width <= 900px) {
+                        font-size: 1rem;
+                    }
                 }
 
                 input, textarea{
