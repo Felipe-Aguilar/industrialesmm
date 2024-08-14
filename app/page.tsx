@@ -10,14 +10,14 @@ import Servicios from "@/components/servicios/Servicios";
 export default function Home() {
   return (
     <div>
-      {/* <HomeSection />
+      <HomeSection />
       <Nosotros />
       <Banner />
       <Rige />
       <Servicios />
       <Galeria />
       <Contacto />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
